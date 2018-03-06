@@ -53,10 +53,10 @@ So I suggest that you just run the script, let it fail, change the offending col
 # and the play that you want to process
 
 #mydir
-my_dir = "/Users/abeverid/PycharmProjects/shake/"
+my_dir = "../"
 
 # play
-play = "othello"
+play = "midsummer"
 
 
 
