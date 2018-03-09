@@ -36,7 +36,7 @@ but treats dash as a non-word character.
 - Replace "Act 1, Scene 1" with "# Act 1, Scene 1", etc. This leading '#' indicates that
   this line is metadata (not dialog)
 
-6. WARNING: there is one quirk right now. The code identifys a speaker by a line that begins
+6. WARNING: there is one quirk right now. The code identifies a speaker by a line that begins
 Character: ....
 but this means that when Shakespeare starts a line with a word and then a colon 
 (eg "Hark: who goes there?") 
@@ -53,10 +53,17 @@ So I suggest that you just run the script, let it fail, change the offending col
 # and the play that you want to process
 
 #mydir
+<<<<<<< HEAD
 my_dir = "../"
 
 # play
 play = "midsummer"
+=======
+my_dir = "/Users/whipper/Projects/shake/"
+
+# play
+play = "hamlet"
+>>>>>>> 58d7101feea7d89883976c58d9a7ed4b70fc8c5d
 
 
 
